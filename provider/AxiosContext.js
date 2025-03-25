@@ -31,7 +31,6 @@ const AxiosProvider = ({ children }) => {
   });
 
   const googleAxios = axios.create({
-    baseURL: "https://www.googleapis.com",
   });
 
   const facebookAxios = axios.create({
